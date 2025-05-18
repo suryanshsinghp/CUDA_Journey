@@ -22,7 +22,7 @@ __global__ void vector_addition(const float *A, const float *B, float *C, int ar
 
     int idx = threadIdx.x + blockIdx.x * blockDim.x;
     if (array_size>blockDim.x*gridDim.x && idx==0){ //check if we have enough threads and print error once
-        printf("Error: array size is larger than the number of threads\n");
+        printf("Error: array size is larger than the total number of threads\n");
         return;
     }
     if (idx < array_size){
@@ -35,7 +35,7 @@ __global__ void vector_addition(const float *A, const float *B, float *C, int ar
 int main() {
 
 
-    // device array of 10000 elements
+    // device array of num_elements elements
     float *d_a, *d_b, *d_c, *h_a, *h_b, *h_c, *h_check; //device and host array pointers
 
     //load some values to host arrays
@@ -61,9 +61,13 @@ int main() {
     cudaCheckErrors("pushed host arrays a and b to device");
 
     // kernel launch
-    dim3 grid_dim(ceil(num_elements/128),1,1); //onjy useing x grid and block for now
-    dim3 block_dim(256,1,1);
+    const int threads_per_block = 1024;
+    //const int total_blocks = ceil(num_elements/threads_per_block); quick lesson: dont do this,int/int is round down already
+    const int total_blocks = (num_elements + threads_per_block - 1) / threads_per_block;
+    dim3 grid_dim(total_blocks,1,1); //onjy useing x grid and block for now
+    dim3 block_dim(threads_per_block,1,1);
     vector_addition<<<grid_dim, block_dim>>>(d_a,d_b,d_c, num_elements);
+    //vector_addition<<<1024, 16>>>(d_a,d_b,d_c, num_elements);
     cudaCheckErrors("finished vector addition kernel");
 
     //get back the c array on device
