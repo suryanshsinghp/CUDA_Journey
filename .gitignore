@@ -1,4 +1,5 @@
 out
+debug
 *.nsys-rep
 *.sqlite
 

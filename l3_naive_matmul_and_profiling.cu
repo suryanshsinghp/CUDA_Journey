@@ -54,8 +54,8 @@ int main(){
     h_C = new double[matrix_size*matrix_size];
     h_check = new double[matrix_size*matrix_size];
     for (int i = 0; i < matrix_size*matrix_size; i++){ //2D matrix are assumed row-major
-        h_A[i] = (rand()/RAND_MAX)*1000; 
-        h_B[i] = (rand()/RAND_MAX)*1000; //without bounding, even double precision results wont match 
+        h_A[i] = (rand()/(float)RAND_MAX)*1000; // bugfix:if not casted to float, int/int will become 0
+        h_B[i] = (rand()/(float)RAND_MAX)*1000; //without bounding, even double precision results wont match 
     }
     for (int i=0; i<matrix_size; i++){ // row index
         for (int j=0; j<matrix_size; j++){ // column inex
@@ -113,19 +113,22 @@ int main(){
     #endif
     cudaCheckErrors("result is back on host");
 
+    float runtime = 0;
+    cudaEventElapsedTime(&runtime, start, stop);
+    printf("Kernel execution time: %f ms\n", runtime);
+
     //verify the result
     for (int i=0; i<matrix_size*matrix_size; i++){ // row index
         //for (int j=0; j<matrix_size; j++){ // column inex
             //int index = i*matrix_size+j;
+            if (i<5){printf("%f %f \n", h_C[i], h_check[i]);}; //for extra sanity check
            if(h_check[i] != h_C[i]){
             printf("result at index %d does not match, expected %f, got %f\n", i, h_check[i], h_C[i]);
             return 1;
            }
         }
+    printf("Passed! \n");
 
-    float runtime = 0;
-    cudaEventElapsedTime(&runtime, start, stop);
-    printf("Kernel execution time: %f ms\n", runtime);
 
     delete[] h_A; delete[] h_B; delete[] h_C; delete[] h_check;
     cudaFree(d_A); cudaFree(d_B); cudaFree(d_C);
