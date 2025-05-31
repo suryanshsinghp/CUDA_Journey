@@ -1,5 +1,6 @@
 // porfiling flag: -lnvToolsExt
-//nsys profile --stats=true ./out > l3_naive_matmul_profile_output.txt
+//nsys profile --stats=true ./out > l3_naive_matmul_profile_output.txt  -> profile entire application
+//ncu -o profile ./out -> for specifically profiling CUDA kernels
 #include <stdio.h>
 #include <iostream>
 #include <stdlib.h>

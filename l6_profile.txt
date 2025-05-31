@@ -1,0 +1,72 @@
+CPU time: 0.461491 seconds
+OpenMP time: 0.188913 seconds
+GPU time: 1.37767 seconds
+Passed!
+Collecting data...
+Generating '/tmp/nsys-report-92d0.qdstrm'
+[1/8] [0%                          ] l6_profile.nsys-rep[1/8] [0%                          ] l6_profile.nsys-rep[1/8] [===22%                      ] l6_profile.nsys-rep[1/8] [===23%                      ] l6_profile.nsys-rep[1/8] [===24%                      ] l6_profile.nsys-rep[1/8] [=====32%                    ] l6_profile.nsys-rep[1/8] [=======38%                  ] l6_profile.nsys-rep[1/8] [=======39%                  ] l6_profile.nsys-rep[1/8] [========40%                 ] l6_profile.nsys-rep[1/8] [==========47%               ] l6_profile.nsys-rep[1/8] [=================73%        ] l6_profile.nsys-rep[1/8] [========================100%] l6_profile.nsys-rep[1/8] [========================100%] l6_profile.nsys-rep
+[2/8] [0%                          ] l6_profile.sqlite[2/8] [1%                          ] l6_profile.sqlite[2/8] [2%                          ] l6_profile.sqlite[2/8] [3%                          ] l6_profile.sqlite[2/8] [4%                          ] l6_profile.sqlite[2/8] [5%                          ] l6_profile.sqlite[2/8] [6%                          ] l6_profile.sqlite[2/8] [7%                          ] l6_profile.sqlite[2/8] [8%                          ] l6_profile.sqlite[2/8] [9%                          ] l6_profile.sqlite[2/8] [10%                         ] l6_profile.sqlite[2/8] [11%                         ] l6_profile.sqlite[2/8] [12%                         ] l6_profile.sqlite[2/8] [13%                         ] l6_profile.sqlite[2/8] [14%                         ] l6_profile.sqlite[2/8] [=15%                        ] l6_profile.sqlite[2/8] [=16%                        ] l6_profile.sqlite[2/8] [=17%                        ] l6_profile.sqlite[2/8] [==18%                       ] l6_profile.sqlite[2/8] [==19%                       ] l6_profile.sqlite[2/8] [==20%                       ] l6_profile.sqlite[2/8] [==21%                       ] l6_profile.sqlite[2/8] [===22%                      ] l6_profile.sqlite[2/8] [===23%                      ] l6_profile.sqlite[2/8] [===24%                      ] l6_profile.sqlite[2/8] [====25%                     ] l6_profile.sqlite[2/8] [====26%                     ] l6_profile.sqlite[2/8] [====27%                     ] l6_profile.sqlite[2/8] [====28%                     ] l6_profile.sqlite[2/8] [=====29%                    ] l6_profile.sqlite[2/8] [=====30%                    ] l6_profile.sqlite[2/8] [=====31%                    ] l6_profile.sqlite[2/8] [=====32%                    ] l6_profile.sqlite[2/8] [======33%                   ] l6_profile.sqlite[2/8] [======34%                   ] l6_profile.sqlite[2/8] [======35%                   ] l6_profile.sqlite[2/8] [=======36%                  ] l6_profile.sqlite[2/8] [=======37%                  ] l6_profile.sqlite[2/8] [=======38%                  ] l6_profile.sqlite[2/8] [=======39%                  ] l6_profile.sqlite[2/8] [========40%                 ] l6_profile.sqlite[2/8] [========41%                 ] l6_profile.sqlite[2/8] [========42%                 ] l6_profile.sqlite[2/8] [=========43%                ] l6_profile.sqlite[2/8] [=========44%                ] l6_profile.sqlite[2/8] [=========45%                ] l6_profile.sqlite[2/8] [=========46%                ] l6_profile.sqlite[2/8] [==========47%               ] l6_profile.sqlite[2/8] [==========48%               ] l6_profile.sqlite[2/8] [==========49%               ] l6_profile.sqlite[2/8] [===========50%              ] l6_profile.sqlite[2/8] [===========51%              ] l6_profile.sqlite[2/8] [===========52%              ] l6_profile.sqlite[2/8] [===========53%              ] l6_profile.sqlite[2/8] [============54%             ] l6_profile.sqlite[2/8] [============55%             ] l6_profile.sqlite[2/8] [============56%             ] l6_profile.sqlite[2/8] [============57%             ] l6_profile.sqlite[2/8] [=============58%            ] l6_profile.sqlite[2/8] [=============59%            ] l6_profile.sqlite[2/8] [=============60%            ] l6_profile.sqlite[2/8] [==============61%           ] l6_profile.sqlite[2/8] [==============62%           ] l6_profile.sqlite[2/8] [==============63%           ] l6_profile.sqlite[2/8] [==============64%           ] l6_profile.sqlite[2/8] [===============65%          ] l6_profile.sqlite[2/8] [===============66%          ] l6_profile.sqlite[2/8] [===============67%          ] l6_profile.sqlite[2/8] [================68%         ] l6_profile.sqlite[2/8] [================69%         ] l6_profile.sqlite[2/8] [================70%         ] l6_profile.sqlite[2/8] [================71%         ] l6_profile.sqlite[2/8] [=================72%        ] l6_profile.sqlite[2/8] [=================73%        ] l6_profile.sqlite[2/8] [=================74%        ] l6_profile.sqlite[2/8] [==================75%       ] l6_profile.sqlite[2/8] [==================76%       ] l6_profile.sqlite[2/8] [==================77%       ] l6_profile.sqlite[2/8] [==================78%       ] l6_profile.sqlite[2/8] [===================79%      ] l6_profile.sqlite[2/8] [===================80%      ] l6_profile.sqlite[2/8] [===================81%      ] l6_profile.sqlite[2/8] [===================82%      ] l6_profile.sqlite[2/8] [====================83%     ] l6_profile.sqlite[2/8] [====================84%     ] l6_profile.sqlite[2/8] [====================85%     ] l6_profile.sqlite[2/8] [=====================86%    ] l6_profile.sqlite[2/8] [=====================87%    ] l6_profile.sqlite[2/8] [=====================88%    ] l6_profile.sqlite[2/8] [=====================89%    ] l6_profile.sqlite[2/8] [======================90%   ] l6_profile.sqlite[2/8] [======================91%   ] l6_profile.sqlite[2/8] [======================92%   ] l6_profile.sqlite[2/8] [=======================93%  ] l6_profile.sqlite[2/8] [=======================94%  ] l6_profile.sqlite[2/8] [=======================95%  ] l6_profile.sqlite[2/8] [=======================96%  ] l6_profile.sqlite[2/8] [========================97% ] l6_profile.sqlite[2/8] [========================98% ] l6_profile.sqlite[2/8] [========================99% ] l6_profile.sqlite[2/8] [========================100%] l6_profile.sqlite[2/8] [========================100%] l6_profile.sqlite
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)       Name     
+ --------  ---------------  ---------  -----------  -----------  --------  ----------  -----------  --------------
+     96.6      66891210618        271  246831035.5       1841.0      1008  2476491632  742964212.5  futex         
+      3.2       2204099506         26   84773057.9  100141558.5    101849   100276274   33427186.6  poll          
+      0.2        122222183      12176      10038.0       1956.0      1005     5846368     126658.4  ioctl         
+      0.0         11971758          4    2992939.5    2776468.5     71269     6347552    3345620.2  fread         
+      0.0          2900931         27     107441.9      13093.0      5083     1887475     363925.2  pthread_join  
+      0.0          2610800         30      87026.7      57206.5     26128      687529     121042.3  pthread_create
+      0.0           537374         21      25589.2       1767.0      1061      287932      71971.0  fopen         
+      0.0           292261          3      97420.3      55653.0     31560      205048      93983.5  sem_timedwait 
+      0.0           140151         23       6093.5       5693.0      2446       21244       4315.0  mmap          
+      0.0           101073          6      16845.5       6967.5      1182       65863      25085.8  fclose        
+      0.0            58425          4      14606.3      15195.5      9646       18388       3639.6  fflush        
+      0.0            35441          4       8860.3       8939.0      6602       10961       1981.3  write         
+      0.0            21602          1      21602.0      21602.0     21602       21602          0.0  fgets         
+      0.0            12912          4       3228.0       2081.0      1071        7679       3006.1  fwrite        
+      0.0            10249          3       3416.3       3509.0      1514        5226       1857.7  pipe2         
+      0.0             8962          3       2987.3       3376.0      2074        3512        793.9  open          
+      0.0             3921          3       1307.0       1309.0      1075        1537        231.0  read          
+      0.0             1163          1       1163.0       1163.0      1163        1163          0.0  fcntl         
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)          Name        
+ --------  ---------------  ---------  -----------  -----------  ---------  ---------  -----------  --------------------
+     67.2        684926247          2  342463123.5  342463123.5  332302605  352623642   14369143.1  cuMemcpyHtoDAsync_v2
+     27.6        281895661          1  281895661.0  281895661.0  281895661  281895661          0.0  cuMemcpyDtoHAsync_v2
+      2.8         28219203          3    9406401.0       4708.0       2050   28212445   16286511.9  cuStreamSynchronize 
+      2.3         23107311          4    5776827.8    5815000.0      11330   11465981    6454693.6  cuMemAlloc_v2       
+      0.1          1028190          1    1028190.0    1028190.0    1028190    1028190          0.0  cuMemAllocHost_v2   
+      0.0           286580          1     286580.0     286580.0     286580     286580          0.0  cuLaunchKernel      
+      0.0           284041          1     284041.0     284041.0     284041     284041          0.0  cuModuleLoadDataEx  
+      0.0            11704          1      11704.0      11704.0      11704      11704          0.0  cuMemsetD32Async    
+      0.0             4122          3       1374.0       1031.0       1008       2083        614.1  cuCtxSetCurrent     
+      0.0             1516          1       1516.0       1516.0       1516       1516          0.0  cuInit              
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances   Avg (ns)    Med (ns)   Min (ns)  Max (ns)  StdDev (ns)                     Name                   
+ --------  ---------------  ---------  ----------  ----------  --------  --------  -----------  ------------------------------------------
+    100.0         28201683          1  28201683.0  28201683.0  28201683  28201683          0.0  saxpy_acc_15(int, float, float *, float *)
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count   Avg (ns)     Med (ns)    Min (ns)   Max (ns)   StdDev (ns)           Operation          
+ --------  ---------------  -----  -----------  -----------  ---------  ---------  -----------  ----------------------------
+     65.9        545156419      2  272578209.5  272578209.5  259190609  285965810   18932926.2  [CUDA memcpy Host-to-Device]
+     34.1        281741119      1  281741119.0  281741119.0  281741119  281741119          0.0  [CUDA memcpy Device-to-Host]
+      0.0              384      1        384.0        384.0        384        384          0.0  [CUDA memset]               
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+   8000.000      2  4000.000  4000.000  4000.000  4000.000        0.000  [CUDA memcpy Host-to-Device]
+   4000.000      1  4000.000  4000.000  4000.000  4000.000        0.000  [CUDA memcpy Device-to-Host]
+      0.000      1     0.000     0.000     0.000     0.000        0.000  [CUDA memset]               
+
+Generated:
+	/mnt/d/CUDA_Journey/l6_profile.nsys-rep
+	/mnt/d/CUDA_Journey/l6_profile.sqlite
