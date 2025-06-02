@@ -9,7 +9,7 @@
 | `l5_array_sum_atomics.cu`                | atomics to get sum of array. Despite being memory safe, atomics is serial and should be combined with other techniques such as reduction (next part). |
 | `l5_array_sum_reduction_warp_shuffle.cu` | on hold                                                      |
 | `l6_openACC_SAXPY.cpp`                   | Detour: using openACC, we can easily parallelize existing code that runs either on gpu/cpu depending on available hardware or parts of the same code can run on gpus and cpus. We need to install `NVIDIA_HPC_SDK` first and update the bash path.<br /> Use nvc++ -acc -mp flags to use openACC and openMP <br /> The GPU time for this code is worse than CPU time most likely due to large memory transfer time and low computation. We can see this on `l6_profile.txt`, line 157 as well. |
-|                                          |                                                              |
+| `l7_transient_heat_equation`             | Transient heat equation for conduction solved on CPU for baseline and then using openMP, CUDA (via openACC) and only CUDA. |
 |                                          |                                                              |
 
 # TODOs:

@@ -1,0 +1,4 @@
+Starting T updates, initialization and allocation took 0.371 seconds.
+Completed 999 updates in 302.389 seconds.
+Completed!
+Total execution time: 302.778 seconds.
